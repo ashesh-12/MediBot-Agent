@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# FAISS index (large binary files, regenerated via ingest.py)
+faiss_index/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# PyTest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model cache (fastembed downloads)
+models/
+*.onnx
