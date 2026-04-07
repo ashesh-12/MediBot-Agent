@@ -1,6 +1,6 @@
 # 🏥 MediBot — Agentic Medical Assistant
 
-![Tests](https://github.com/YOUR_USERNAME/MediBot-Agent/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/ashesh-12/MediBot-Agent/actions/workflows/tests.yml/badge.svg)
 
 An AI-powered medical information assistant built with **LangChain Agents**, **Groq LLM**, **FAISS**, and **Streamlit**. MediBot uses a ReAct agent that intelligently selects the right tool based on the user's query — symptom checking, disease Q&A, or treatment summarization.
 
