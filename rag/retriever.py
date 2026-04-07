@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import List
 
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import FastEmbedEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 from langchain_core.vectorstores import VectorStoreRetriever
 
@@ -15,9 +15,9 @@ from langchain_core.vectorstores import VectorStoreRetriever
 FAISS_INDEX_PATH = "faiss_index"
 
 
-def get_embeddings() -> FastEmbedEmbeddings:
-    """Load the embedding model (384-dim, matches your Pinecone index)."""
-    return FastEmbedEmbeddings(
+def get_embeddings() -> HuggingFaceEmbeddings:
+    """Load the embedding model (384-dim)."""
+    return HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 

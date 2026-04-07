@@ -3,7 +3,6 @@ langchain-community==0.3.23
 langchain-groq==0.3.2
 faiss-cpu
 sentence-transformers==3.4.1
-fastembed==0.4.2
 streamlit==1.43.2
 python-dotenv==1.1.0
 pypdf==5.4.0
